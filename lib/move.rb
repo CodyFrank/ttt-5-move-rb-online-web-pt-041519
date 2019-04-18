@@ -15,6 +15,8 @@ def input_to_index (user_input)
 end
 
 def move(board_array, index, cha)
-  cha = x
+  if cha = ""
+    cha == x
+  end
   board_array[index] = cha
 end
