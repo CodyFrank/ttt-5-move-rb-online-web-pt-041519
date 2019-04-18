@@ -11,5 +11,5 @@ def input_to_index (user_input)
   input = user_input.strip
   integer = input.to_i
   array_entry = integer - 1
-  return array entry
+  return array_entry
 end
