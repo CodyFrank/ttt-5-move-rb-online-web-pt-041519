@@ -14,9 +14,6 @@ def input_to_index (user_input)
   return array_entry
 end
 
-def move(board_array, index, cha)
-  if cha = ""
-    cha == x
-  end
-  board_array[index] = cha
+def move(board_array, index, "X")
+  board_array[index] = "X"
 end
