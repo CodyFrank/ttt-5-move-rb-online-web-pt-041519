@@ -13,3 +13,7 @@ def input_to_index (user_input)
   array_entry = integer - 1
   return array_entry
 end
+
+def move(board_array, index, cha)
+  board_array[index] = value
+end
